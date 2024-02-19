@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Investment Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our investment company. We specialize in helping individuals and businesses grow their wealth through strategic investments.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Portfolio Management</li>
+            <li>Financial Planning</li>
+            <li>Investment Advisory</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+        <address>
+            Email: <a href="mailto:info@investmentcompany.com">info@investmentcompany.com</a><br>
+            Phone: 123-456-7890
+        </address>
+    </section>
+    <footer>
+        <p>&copy; 2024 Investment Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<section id="hero">
+    <div class="hero-content">
+        <h1>Welcome to Our Investment Company</h1>
+        <p>Grow your wealth with us through expert financial planning and investment strategies.</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to our investment company. We specialize in helping individuals and businesses grow their wealth through strategic investments.</p>
+        <p>With over 10 years of experience, our team of financial experts is dedicated to providing personalized solutions to meet your investment goals.</p>
+    </div>
+</section>
+<section id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Portfolio Management</h3>
+            <p>We offer professional portfolio management services tailored to your risk tolerance and financial objectives.</p>
+        </div>
+        <div class="service">
+            <h3>Financial Planning</h3>
+            <p>Our comprehensive financial planning services help you create a roadmap for achieving your long-term financial goals.</p>
+        </div>
+        <div class="service">
+            <h3>Investment Advisory</h3>
+            <p>Receive expert investment advice and guidance from our team of seasoned professionals to make informed investment decisions.</p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+        <address>
+            Email: <a href="mailto:info@investmentcompany.com">info@investmentcompany.com</a><br>
+            Phone: 123-456-7890
+        </address>
+    </div>
+</section>
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e55d00;
+}
+
+/* About section styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Services section styles */
+#services {
+    padding: 80px 0;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+address {
+    font-style: normal;
+}
+
+address a {
+    color: #fff;
+}
